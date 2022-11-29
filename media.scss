@@ -1,0 +1,642 @@
+@media (max-width: 1200px) {
+  #backed .backed--hand {
+    left: 30%;
+    top: 367em;
+  }
+}
+
+@media (max-width: 1024px) {
+  #hero .hero--log {
+    font-size: 67px;
+  }
+  #hero .hero--text {
+    font-size: 14px;
+  }
+  #backed .backed--hand {
+    left: 27%;
+    top: 363em;
+  }
+  #hero .imgg {
+    height: 90%;
+  }
+  #trend .trend--block__card--title {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  #header .header--block__menu {
+    width: 23%;
+  }
+  #trend .trend--block {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    flex-direction: column;
+  }
+  #backed .backed--hand {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #header .header--block__menu {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  #video .video--play {
+    padding: 31px 34px;
+    width: 34%;
+    font-size: 21px;
+  }
+  #video .video--block {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-direction: column;
+  }
+  #video .video--block__price {
+    width: 49%;
+  }
+  #backed .backed--block__block1 img {
+    width: 8em;
+  }
+  #footer .footer--block__elements--menuA {
+    width: 35%;
+  }
+  #artists .artists--block__violet {
+    padding: 0 0 0 111px;
+  }
+  #trend .trend--block__card--order__end {
+    padding: 0 0 65px 0;
+  }
+  #artists .artists--block__popular {
+    padding: 56px;
+    font-size: 34px;
+  }
+  #hero .hero--log {
+    font-size: 40px;
+  }
+  #hero .hero--text {
+    font-size: 10px;
+  }
+  #hero .imgg {
+    height: 80%;
+  }
+  #hero .hero--text {
+    padding: 0 0 101px 0;
+
+  }
+  #footer .footer--block__elements--icons {
+    width: 37%;
+  }
+}
+
+@media (max-width: 576px) {
+  #header .header--block__logot {
+    margin: 0 0 0 20px;
+  }
+  #header .header--block__btn {
+    font-size: 14px;
+  }
+  #hero .imgg {
+    left: 0%;
+    position: relative;
+    max-width: 100%;
+    /* position: absolute; */
+
+  }
+  #hero .hero--log {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  #hero .hero--text {
+    padding: 0 0 63px 0;
+
+  }
+  #video .video--play {
+    width: 54%;
+    margin-top: 0em;
+      padding: 31px 0 0 88px;
+
+  }
+
+  #video .video--block {
+    margin: 76px 0 70px 0;
+    /* align-items: center; */
+  }
+  #video .video--block__price {
+    margin: 10px 30px 0 0;
+  }
+  #video .video--block__price--title h1 {
+    font-size: 41px;
+  }
+  #video .video--block__price--title p {
+    font-size: 15px;
+
+  }
+  #nft .nft--log {
+    font-size: 45px;
+  }
+
+  #artists .artists--profile {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+  }
+  #artists .artists--block__popular {
+    margin-top: -145px;
+    padding: 40px;
+    font-size: 23px;
+  }
+  #artists .artists--block__violet {
+    margin-top: -56px;
+    padding: 0 0 0 71px;
+    width: 50%;
+    color: #D400B3;
+  }
+  #trend .trend--logo {
+    font-size: 41px;
+    margin-left: 0px;
+  }
+  #backed .backed--block__search--log {
+    padding: 1em 0 0 0;
+    font-size: 45px;
+
+  }
+  #backed .backed--block__search--logo {
+    margin: 42px 0;
+    font-size: 14px;
+  }
+  #backed .backed--block__search {
+    margin: 6em 0;
+    height: 394px;
+  }
+  #backed .backed--block__block1 img {
+    width: 5em;
+  }
+  #backed .backed--block__center {
+    width: 7em;
+  }
+  #footer .footer--block__elements--menuA {
+    display: none;
+  }
+  #footer .footer--block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #footer .footer--block__elements--icons {
+    /* width: 59%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* font-size: 17px; */
+  }
+}
+
+@media (max-width: 450px) {
+  #trend .trend--block__card--order__element {
+    width: 79%;
+  }
+  #hero .hero--text {
+    line-height: 26px;
+  }
+  #trend .trend--block__card--order__end {
+    margin-left: 14em;
+  }
+  #video .video--play {
+    font-size: 15px;
+  }
+  #nft .nft--log {
+    font-size: 27px;
+  }
+  #video .video--block h3 {
+    font-size: 15px;
+    line-height: 26px;
+  }
+  #video .video--block__price--title h1 {
+    font-size: 29px;
+  }
+  #video .video--block__price--title p {
+    font-size: 11px;
+  }
+  #nft .nft--log {
+    font-size: 30px;
+  }
+  #nft .nft--block {
+    flex-direction: column;
+  }
+  #nft .nft--block__table {
+    width: 72%;
+    margin: 10px;
+
+  }
+  #trend .trend--logo {
+    font-size: 30px;
+  }
+  #trend .trend--block__card--title {
+    font-size: 11px;
+  }
+  #trend .trend--block__card--order__man {
+    width: 80%;
+
+  }
+  #artists .artists--block__popular {
+    margin-top: -171px;
+    padding: 40px;
+    font-size: 18px;
+  }
+  #backed .backed--title {
+    font-size: 30px;
+  }
+  #backed .backed--text {
+    font-size: 11px;
+    line-height: 26px;
+  }
+  #backed .backed--block__block1 {
+    flex-direction: column;
+    margin: 10px 0;
+  }
+  #backed .backed--block__center {
+    padding: 18px 25px;
+  }
+  #backed .backed--block__search--log {
+    font-size: 30px;
+  }
+  #backed .backed--block__search--logo {
+    margin: 25px 0;
+    font-size: 11px;
+  }
+  #backed .backed--block__search {
+    margin: 4em 0;
+    height: 344px;
+  }
+  #footer .footer--end {
+    font-size: 10px;
+
+  }
+
+  #footer .footer--block__elements--icons {
+    width: 59%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    /* font-size: 17px; */
+  }
+  #footer .footer--block__elements {
+    display: flex;
+    justify-content: flex-end;
+
+    width: 90%;
+  }
+}
+
+@media (max-width: 414px) {
+  #artists .artists--block__popular {
+    background: #262627;
+    margin-top: -65px;
+  }
+  #artists .artists--block__violet p {
+    font-size: 6px;
+    line-height: 10px;
+
+  }
+  #footer .footer--block__elements--icons__icon {
+    padding: 5px 8px;
+  }
+  #header .header--block__logot {
+    width: 10%;
+  }
+  #footer .footer--block__logot {
+    margin: 0 23px;
+    width: 10%;
+  }
+  #footer .footer--block__elements--icons {
+    font-size: 13px;
+  }
+  #artists .artists--profile__box--man {
+    width: 100%;
+  }
+  #trend .trend--block__card--order__man {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .burger {
+    width: 100%;
+
+  }
+  #header .header--block__btn {
+    font-size: 8px;
+  }
+  #nft .nft--block__table {
+    padding: 20px 15px;
+  }
+  #nft .nft--block__table--text {
+    font-size: 19px;
+  }
+  #nft .nft--block__table--minitext {
+    font-size: 12px;
+  }
+  #artists {
+    background: #262627;
+    padding: 0em 0;
+  }
+  #backed {
+    padding: 6em 0;
+  }
+  #video .video--block {
+    margin: 27px 0 27px 0;
+  }
+  #artists .artists--block__popular {
+    margin-top: 3px;
+  }
+  #artists .artists--block__violet {
+    margin-top: 0px;
+    padding: 0 0 0 51px;
+
+  }
+  #artists .artists--profile__box--back__move {
+    font-size: 24px;
+  }
+  #artists .artists--profile__box--back__btn {
+    font-size: 11px;
+  }
+  #backed .backed--block__block1 img {
+    height: 2em;
+    padding: 7px 30px;
+  }
+  #backed .backed--block__block1 {
+    margin: 10px 0;
+    width: 65%;
+    align-items: center;
+  }
+  #backed .backed--block__center {
+    padding: 7px 11px;
+    margin: 0px;
+  }
+  #trend .trend--block__card--order__element {
+    width: 75%;
+
+  }
+  #backed .backed--block__search--input {
+    margin: 16px 0;
+
+  }
+  #backed .backed--block__search {
+    margin: 0 0 5em 0;
+    height: 273px;
+  }
+  #footer .footer--block {
+
+    margin: 50px 0 0 0;
+  }
+  #backed .backed--block__search--line {
+    margin: 3em 0 0 0;
+
+  }
+  #footer .footer--block__line {
+    margin: 21px 0;
+  }
+  #footer .footer--block {
+    margin: 10px 0 0 0;
+  }
+  #footer {
+    margin-top: -136px;
+  }
+}
+@media (max-width: 375px) {
+  .burger {
+    width: 100%;
+  }
+  #hero .hero--log {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  #hero .hero--text {
+    line-height: 18px;
+  }
+  #hero .hero--text {
+    line-height: 18px;
+  }
+  #video {
+    padding: 0em 0;
+
+  }
+  #video .video--play svg {
+    padding: 8px;
+  }
+  #video .video--block__price--title h1 {
+    font-size: 23px;
+  }
+  #video .video--block__price--title p {
+    font-size: 8px;
+  }
+  #video .marquee-infinite .IMG img {
+    margin: 10px 20px 10px 20px;
+  }
+  #video .image img {
+    margin: 10px 20px 10px 20px;
+  }
+  #nft .nft--log {
+    padding: 19px 0 0 0;
+    font-size: 25px;
+  }
+  #nft .nft--block {
+    padding: 2em 0 3em;
+  }
+  #nft .nft--block__table {
+    padding: 10px 3px;
+  }
+  #nft .nft--block__table--circle {
+    height: 2em;
+    width: 2em;
+  }
+  #nft .nft--block__table--line {
+    margin-left: 151px;
+  }
+  #nft .nft--block__table--text {
+    font-size: 15px;
+  }
+  #nft .nft--block__table--minitext {
+    font-size: 10px;
+  }
+  #trend .trend--logo {
+    font-size: 24px;
+  }
+  #trend .trend--block__card--title {
+    padding: 0 0 15px 0;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  #trend .trend--block__card--order__name {
+    padding: 6px;
+    font-size: 25px;
+    line-height: 15px;
+  }
+  #trend .trend--block__card--order__element--violet {
+    font-size: 12px;
+  }
+  #trend .trend--block__card--order__end {
+    margin-left: 12em;
+    font-size: 12px;
+  }
+  #artists .artists--block__popular {
+    font-size: 16px;
+  }
+  #artists .artists--profile__box--man {
+    width: 100%;
+    /* text-align: center; */
+  }
+  #artists .artists--profile__box--back {
+    width: 100%;
+
+  }
+  #artists .artists--profile {
+    padding: 1em 0;
+  }
+  #backed .backed--title {
+    font-size: 24px;
+  }
+  #backed .backed--text {
+    line-height: 17px;
+  }
+  #backed .backed--block__search--log {
+    padding: 0.5em 0 0 0;
+    font-size: 25px;
+  }
+  #backed .backed--block__search--line {
+    margin: 1em 0 0 0;
+  }
+  #backed .backed--block__search {
+    margin: 0px 0 3em 0;
+    height: 216px;
+  }
+  #trend .trend--block__card--order__man {
+    width: 100%;
+  }
+}
+@media (max-width: 360px) {
+  #trend .trend--block__card--title {
+    font-size: 13px;
+    line-height: 17px;
+  }
+  #trend .trend--logo {
+    font-size: 20px;
+  }
+  #trend .trend--block__card--order__name {
+    font-size: 20px;
+
+  }
+  #trend .trend--block__card--order__end {
+    margin-left: 26em;
+    font-size: 9px;
+  }
+  #artists .artists--block__popular {
+    font-size: 11px;
+  }
+  #artists .artists--block__violet--log {
+    font-size: 9px;
+  }
+  #backed .backed--block__search--input__searchInput {
+    font-size: 7px;
+    height: 7px;
+  }
+  .svg-inline--fa {
+    height: 12px;
+
+  }
+  #backed .backed--block__search--input__btn {
+    height: 18px;
+    font-size: 17px;
+  }
+  #footer .footer--block__elements--icons__icon {
+    padding: 3px 6px;
+  }
+}
+@media (max-width: 320px) {
+  #hero .hero--log {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  #video .video--play {
+    font-size: 11px;
+  }
+  #hero .hero--text {
+    padding: 0 0 29px 0;
+    line-height: 16px;
+  }
+  #video .video--play {
+    padding: 14px 17px;
+    font-size: 12px;
+  }
+  #video .video--block h3 {
+    font-size: 12px;
+    line-height: 21px;
+  }
+  #video .video--block__price--title h1 {
+    font-size: 19px;
+    line-height: 12px;
+  }
+  #trend .trend--block__card--title {
+    font-size: 10px;
+    line-height: 17px;
+  }
+  #trend .trend--block__card--order__man {
+    padding: 0 0 57px 0;
+  }
+  #trend .trend--block__card--order__end {
+    padding: 0 0 29px 0;
+  }
+  #trend .trend--block__card--order__end {
+    margin-left: 24em;
+    font-size: 8px;
+  }
+  #artists .artists--block__violet p {
+    padding: 10px 0;
+    font-size: 8px;
+    line-height:8px;
+    color: #C4C4C4;
+  }
+  #artists .artists--profile__box--back__move {
+    font-size: 18px;
+  }
+  #backed {
+    padding: 2em 0;
+  }
+  #backed .backed--block__search--log {
+    font-size: 20px;
+  }
+  #backed .backed--block__search--logo {
+    font-size: 8px;
+    line-height: 15px;
+
+  }
+  #footer .footer--end {
+    font-size: 8px;
+  }
+  #footer .footer--block__line {
+    margin: 18px 0;
+  }
+  #backed .backed--block__search {
+    margin: 0px 0 6em 0;
+    height: 160px;
+  }
+  #backed .backed--block__block1 img {
+    height: 2em;
+    padding: 3px 20px;
+  }
+  #backed .backed--block__center {
+    padding: 2px 4px;
+    margin: 0px;
+  }
+  .burgerBlock {
+    min-height: 73.5vh;
+
+  }
+}

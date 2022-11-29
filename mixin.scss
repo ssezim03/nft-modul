@@ -1,0 +1,67 @@
+@mixin between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin around{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@mixin btn{
+  cursor: pointer;
+  padding: 5px 25px;
+  font-family: 'Paytone One',sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+  background: #D400B3;
+  border: none;
+}
+@mixin a{
+  font-family: 'Source Sans Pro',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size:100%;
+}
+@mixin minitext{
+  font-family: 'Source Sans Pro',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+@mixin name{
+  padding: 10px;
+  font-family: 'Paytone One',sans-serif;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 44px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+@mixin descrip {
+  padding: 10px;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #C4C4C4;
+
+}
+@mixin eth{
+  font-family: 'Source Sans Pro',sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #D400B3;
+
+}
+@mixin logo{
+  font-family: 'Paytone One',sans-serif;
+  font-weight: 400;
+  font-size: 52px;
+  color: #FFFFFF;
+}
