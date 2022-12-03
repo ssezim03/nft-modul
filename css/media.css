@@ -1,7 +1,12 @@
+@media (max-width: 1440px) {
+  #backed .backed--hand {
+    top: 370em;
+  }
+}
 @media (max-width: 1200px) {
   #backed .backed--hand {
     left: 30%;
-    top: 367em;
+    top: 357em;
   }
 }
 @media (max-width: 1024px) {
@@ -12,8 +17,10 @@
     font-size: 14px;
   }
   #backed .backed--hand {
-    left: 27%;
-    top: 363em;
+    left: 29%;
+    /* font-size: 20%; */
+    top: 353em;
+    width: 42%;
   }
   #hero .imgg {
     height: 90%;
@@ -90,6 +97,9 @@
   }
 }
 @media (max-width: 576px) {
+  .burger {
+    width: 100%;
+  }
   #header .header--block__logot {
     margin: 0 0 0 20px;
   }

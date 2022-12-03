@@ -487,7 +487,7 @@ a {
   padding: 3em 0;
 }
 #backed .backed--block__block1 {
-  margin: 0.5em 0;
+  margin: -2em 0;
   width: 65%;
   display: flex;
   justify-content: space-around;
@@ -502,6 +502,7 @@ a {
   border-radius: 1px;
 }
 #backed .backed--block__center {
+  z-index: 2;
   opacity: 1;
   height: 3em;
   width: 12em;
@@ -572,7 +573,7 @@ a {
   height: 733px;
   left: 32%;
   right: 24.75%;
-  top: 383em;
+  top: 373em;
   border-radius: 0;
 }
 
