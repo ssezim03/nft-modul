@@ -334,6 +334,14 @@
   #trend .trend--block__card--order__man {
     width: 100%;
   }
+  #backed .backed--block__block1 img {
+    margin: 20px;
+    width: 5em;
+  }
+  #backed .backed--block__block1 img {
+    width: 5em;
+    margin: 20px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -567,6 +575,11 @@
   }
   #footer .footer--block__elements--icons__icon {
     padding: 3px 6px;
+  }
+  #backed .backed--block__block1 img {
+    height: 2em;
+    padding: 7px 30px;
+    margin: 10px;
   }
 }
 @media (max-width: 320px) {
