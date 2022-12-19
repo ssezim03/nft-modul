@@ -32,10 +32,11 @@
         z-index: 1;
         @include btn;
         transition: 2s;
+
       }
 
       &__btn:hover {
-        background: #FFFFFF;
+        background: linear-gradient(135deg,#14ffe9,#ffeb3b, #ff00e0);
         color: $colorVio;
         transform: scale(1.2);
       }
@@ -64,7 +65,7 @@
     display: block;
     width: 25px;
     height: 25px;
-    background: rgba(72, 79, 229, 0.62);
+    background: linear-gradient(135deg,#14ffe9,#ffeb3b, #ff00e0);
     animation: animate 5s linear infinite;
     bottom: -100px;
   }
@@ -116,6 +117,7 @@
 
   @keyframes animate {
     0% {
+
       transform: translateY(0) rotate(0deg);
       opacity: 1;
     }
@@ -160,6 +162,8 @@
     left: 47%;
     right: 0;
     top: 0;
+    box-shadow: 0 0 105px rgb(248, 233, 32);
+
   }
 }
 
@@ -448,7 +452,7 @@
 
           &__btn:hover {
             transform: scale(1.2);
-            background: #FFFFFF;
+            background: linear-gradient(135deg,#14ffe9,#ffeb3b, #ff00e0);
             color: $colorVio;
           }
         }

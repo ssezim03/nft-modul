@@ -124,7 +124,7 @@ a {
   transition: 2s;
 }
 #header .header--block__btn:hover {
-  background: #FFFFFF;
+  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
   color: #D400B3;
   transform: scale(1.2);
 }
@@ -147,7 +147,7 @@ a {
   display: block;
   width: 25px;
   height: 25px;
-  background: rgba(72, 79, 229, 0.62);
+  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
   animation: animate 5s linear infinite;
   bottom: -100px;
 }
@@ -233,6 +233,7 @@ a {
   left: 47%;
   right: 0;
   top: 0;
+  box-shadow: 0 0 105px rgb(248, 233, 32);
 }
 
 #video {
@@ -532,7 +533,7 @@ a {
 }
 #artists .artists--profile__box--back__btn:hover {
   transform: scale(1.2);
-  background: #FFFFFF;
+  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
   color: #D400B3;
 }
 
